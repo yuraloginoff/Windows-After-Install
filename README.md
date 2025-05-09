@@ -2,8 +2,33 @@
 
 Things to do after installing Windows 11.
 
-Microsoft Activation Scripts
-<https://massgrave.dev>
+## Activation
+
+<https://massgrave.dev> - Microsoft Activation Scripts
+
+## System tweaks
+
+**ExplorerPatcher** - <https://github.com/valinet/ExplorerPatcher>
+This project aims to enhance the working environment on Windows.
+
+### Windhawk
+
+**The customization marketplace for Windows and programs.** \
+Website: <https://windhawk.net/> \
+<https://github.com/ramensoftware/windhawk>
+
+- Taskbar height and icon size \
+<https://windhawk.net/mods/taskbar-icon-size>
+
+- Better file sizes in Explorer details \
+<https://windhawk.net/mods/explorer-details-better-file-sizes>
+
+- Slick Window Arrangement \
+<https://windhawk.net/mods/slick-window-arrangement>
+
+- Taskbar Clock Customization \
+<https://windhawk.net/mods/taskbar-clock-customization> \
+My example: `ddd',' d MMM • HH':'mm` = `Вс, 1 янв • 13:54`
 
 ## Soft
 
@@ -38,25 +63,6 @@ Microsoft Activation Scripts
 
 **Stretchly** - The break time reminder app \
 <https://hovancik.net/stretchly/>
-
-## Windhawk
-
-**The customization marketplace for Windows and programs.** \
-Website: <https://windhawk.net/> \
-<https://github.com/ramensoftware/windhawk>
-
-- Taskbar height and icon size \
-<https://windhawk.net/mods/taskbar-icon-size>
-
-- Better file sizes in Explorer details \
-<https://windhawk.net/mods/explorer-details-better-file-sizes>
-
-- Slick Window Arrangement \
-<https://windhawk.net/mods/slick-window-arrangement>
-
-- Taskbar Clock Customization \
-<https://windhawk.net/mods/taskbar-clock-customization> \
-My example: `ddd',' d MMM • HH':'mm` = `Вс, 1 янв • 13:54`
 
 ---
 
@@ -96,25 +102,11 @@ scoop install extras/quicklook
 scoop install ditto
 ```
 
-**64Gram** - unofficial Telegram Desktop \
-<https://github.com/TDesktop-x64/tdesktop>
-
-```powershell
-scoop install 64gram
-```
-
 **Koodo Reader** - all-in-one ebook reader \
 <https://www.koodoreader.com>
 
 ```powershell
 scoop install extras/koodo-reader
-```
-
-**transmission** - A fast, easy, and free BitTorrent client. \
-<https://transmissionbt.com>
-
-```powershell
-scoop install transmission
 ```
 
 **powertoys** - A set of utilities for power users to tune and streamline their Windows experience for greater productivity.\
@@ -124,19 +116,11 @@ scoop install transmission
 scoop install powertoys
 ```
 
-### Tools for video editing
-
-```powershell
-scoop install handbrake
-```
-
-```powershell
-scoop install ffmpeg
-scoop install ffmpeg-batch
-scoop install yt-dlp
-```
-
 ### Fonts
+
+**nexusfont** - Font manager \
+<https://www.xiles.app/> \
+`scoop install extras/nexusfont`
 
 **JetBrains Mono**: A free and open source typeface for developers
 
@@ -145,6 +129,35 @@ scoop bucket add nerd-fonts
 scoop install nerd-fonts JetBrainsMono-NF
 ```
 
-**nexusfont** - Font manager \
-<https://www.xiles.app/> \
-`scoop install extras/nexusfont`
+### Audio, video
+
+```powershell
+scoop install handbrake
+```
+
+```powershell
+scoop install ffmpeg
+scoop install ffmpeg-batch
+```
+
+**mp3tag** - <https://www.mp3tag.de/en> \
+Powerful and easy-to-use tool to edit metadata of audio files.
+
+```powershell
+scoop install extras/mp3tag
+```
+
+### Downloading
+
+**yt-dlp** -
+
+```powershell
+scoop install yt-dlp
+```
+
+**transmission** - <https://transmissionbt.com> \
+A fast, easy, and free BitTorrent client.
+
+```powershell
+scoop install transmission
+```
