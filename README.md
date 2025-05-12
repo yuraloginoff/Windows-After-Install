@@ -147,9 +147,17 @@ Powerful and easy-to-use tool to edit metadata of audio files.
 scoop install extras/mp3tag
 ```
 
+**mkvtoolnix** - <https://mkvtoolnix.download/> \
+A set of tools to create, alter and inspect Matroska files.
+
+```powershell
+scoop install extras/mkvtoolnix
+```
+
 ### Downloading
 
-**yt-dlp** -
+**yt-dlp** - <https://github.com/yt-dlp/yt-dlp> \
+A youtube-dl fork with additional features and fixes.
 
 ```powershell
 scoop install yt-dlp
