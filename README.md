@@ -11,6 +11,9 @@ Things to do after installing Windows 11.
 **ExplorerPatcher** - <https://github.com/valinet/ExplorerPatcher>
 This project aims to enhance the working environment on Windows.
 
+**ExplorerTabUtility** - <https://github.com/w4po/ExplorerTabUtility>
+Force new File Explorer window to open as tab, not as window.
+
 ### Windhawk
 
 **The customization marketplace for Windows and programs.** \
