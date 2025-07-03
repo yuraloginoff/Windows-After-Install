@@ -35,6 +35,12 @@ My example: `ddd',' d MMM • HH':'mm` = `Вс, 1 янв • 13:54`
 
 ## Soft
 
+**Telegram** \
+<https://desktop.telegram.org/>
+
+**Яндекс Диск** \
+<https://360.yandex.ru/disk/download/>
+
 **Revo Uninstaller Free**\
 <https://www.revouninstaller.com/products/revo-uninstaller-free/>
 
