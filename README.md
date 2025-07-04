@@ -58,7 +58,8 @@ My example: `ddd',' d MMM • HH':'mm` = `Вс, 1 янв • 13:54`
 
 **qBittorrent** \
 <https://www.qbittorrent.org/> \
-<https://qbittorrent.github.io/qBittorrent-website/download>
+<https://qbittorrent.github.io/qBittorrent-website/download> \
+`scoop install extras/qbittorrent`
 
 **Bitwarden** \
 <https://bitwarden.com/download/>
