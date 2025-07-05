@@ -2,38 +2,47 @@
 
 Things to do after installing Windows 11.
 
-## Activation
+## OS Activation
 
-<https://massgrave.dev> - Microsoft Activation Scripts
+**Microsoft Activation Scripts (MAS)** - Open-source Windows and Office activator featuring HWID, Ohook, TSforge, KMS38, and Online KMS activation methods, along with advanced troubleshooting. \
+Website: [massgrave.dev](https://massgrave.dev)
 
 ## System tweaks
 
-**ExplorerPatcher** - <https://github.com/valinet/ExplorerPatcher> \
-This project aims to enhance the working environment on Windows.
+**ExplorerPatcher** - This project aims to enhance the working environment on Windows. \
+[GitHub](https://github.com/valinet/ExplorerPatcher)
 
-**ExplorerTabUtility** - <https://github.com/w4po/ExplorerTabUtility> \
-Force new File Explorer window to open as tab, not as window.
+**ExplorerTabUtility** - Force new File Explorer window to open as tab, not as window. \
+[GitHub](https://github.com/w4po/ExplorerTabUtility)
 
-### Windhawk
-
-**The customization marketplace for Windows and programs.** \
-Website: <https://windhawk.net/> \
-<https://github.com/ramensoftware/windhawk>
-
-- Taskbar height and icon size \
-<https://windhawk.net/mods/taskbar-icon-size>
-
-- Better file sizes in Explorer details \
-<https://windhawk.net/mods/explorer-details-better-file-sizes>
-
-- Slick Window Arrangement \
-<https://windhawk.net/mods/slick-window-arrangement>
-
-- Taskbar Clock Customization \
-<https://windhawk.net/mods/taskbar-clock-customization> \
-My example: `ddd',' d MMM • HH':'mm` = `Вс, 1 янв • 13:54`
+**Windhawk** - The customization marketplace for Windows and programs. \
+[Website](https://windhawk.net), [GitHub](https://github.com/ramensoftware/windhawk)
 
 ## Soft
+
+**Scoop** - A command-line installer for Windows. \
+Website: [scoop.sh](https://scoop.sh)
+
+Installation:
+
+```shell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+
+# Git is required for scoop to add buckets
+scoop install git
+
+# then add most common buckets
+scoop bucket add extras
+scoop bucket add main
+```
+
+### Browsers
+
+**Brave** - Secure, Fast & Private Web Browser with Adblocker. \
+Website: [brave.com](https://brave.com/) \
+`scoop install brave`
 
 **Telegram** \
 <https://desktop.telegram.org/>
@@ -76,21 +85,6 @@ My example: `ddd',' d MMM • HH':'mm` = `Вс, 1 янв • 13:54`
 <https://hovancik.net/stretchly/>
 
 ---
-
-## Scoop
-
-**A command-line installer for Windows.** \
-Website: <https://scoop.sh>
-
-**Git** is required for scoop to add buckets:
-
-```powershell
-scoop install git
-
-# then add most common buckets
-scoop bucket add extras
-scoop bucket add main
-```
 
 **everything** - Locate files and folders by name instantly.\
 <https://www.voidtools.com/>
