@@ -13,7 +13,8 @@ Website: [massgrave.dev](https://massgrave.dev)
 [GitHub](https://github.com/valinet/ExplorerPatcher)
 
 **ExplorerTabUtility** - Force new File Explorer window to open as tab, not as window. \
-[GitHub](https://github.com/w4po/ExplorerTabUtility)
+[GitHub](https://github.com/w4po/ExplorerTabUtility) \
+`winget install w4po.ExplorerTabUtility --interactive`
 
 **Windhawk** - The customization marketplace for Windows and programs. \
 [Website](https://windhawk.net), [GitHub](https://github.com/ramensoftware/windhawk)
